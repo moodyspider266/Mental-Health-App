@@ -3,7 +3,7 @@
 .sidebar {
     width: 250px;
     height: 100%;
-    background-color: white;
+    background-color: rgb(152, 70, 207);
     position: fixed;
     top: 0;
     left: 0;
@@ -26,7 +26,7 @@
     margin-left: 10px;
     font-weight: 900;
     text-decoration: none;
-    color: #000;
+    color: white;
   }
   
   .sidebar-header {
@@ -71,7 +71,7 @@
   
   .sidebar-option a {
     text-decoration: none;
-    color: rgb(18, 18, 77);
+    color: white;
     display: flex;
     align-items: center;
     padding: 10px;
@@ -79,5 +79,5 @@
   }
   
   .sidebar-option a:hover {
-    color: rgb(44, 44, 237);
+    color: rgb(63, 11, 97);
   }
