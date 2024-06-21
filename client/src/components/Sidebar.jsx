@@ -4,13 +4,10 @@ import "../components_styling/Sidebar.css";
 const Sidebar = () => {
   const options = [
     { name: 'Dashboard', icon: 'dashboard', link: '/dashboard' },
-    { name: 'Transactions', icon: 'transactions', link: '/transactions' },
-    { name: 'Accounts', icon: 'accounts', link: '/accounts' },
-    { name: 'Investments', icon: 'investments', link: '/investments' },
-    { name: 'Credit Cards', icon: 'credit-cards', link: '/credit-cards' },
-    { name: 'Loans', icon: 'loans', link: '/loans' },
-    { name: 'Services', icon: 'services', link: '/services' },
-    { name: 'Privileges', icon: 'privileges', link: '/privileges' },
+    { name: 'Community', icon: 'community', link: '/community' },
+    { name: 'Surveys', icon: 'surveys', link: '/surveys' },
+    { name: 'To-do-List', icon: 'to-do-list', link: '/to-do-list' },
+    { name: 'Recommendations', icon: 'recommendations', link: '/recommendations' },
     { name: 'Settings', icon: 'settings', link: '/settings' },  
   ];
 

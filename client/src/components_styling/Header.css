@@ -4,11 +4,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     height: 100px;
-    margin-left: 250px;
+    margin-left: 0;
+    margin-right: 0;
   }
   
   .header-actions {
@@ -26,6 +27,7 @@
     font-size: 1.05rem;
     margin-right: 600px;
     color: rgb(97, 97, 97);
+    margin-left: 250px;
   }
 
   .header-search:focus {
