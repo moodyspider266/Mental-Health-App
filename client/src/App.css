@@ -14,3 +14,8 @@ html, body {
   flex-direction: column;
   height: 100vh;
 }
+
+.main-content {
+  margin-left: 250px;
+  
+}
