@@ -1,12 +1,17 @@
 import React from 'react';
-import MoodLineChart from '../charts/LineChart';
 import "../components_styling/Dashboard.css";
+import MoodLineChart from '../charts/LineChart';
+import MoodDoughnutChart from '../charts/DoughnutChart';
+import RatingSlider from '../components/RateSlider';
 
 function Dashboard() {
+
+  const userName = "Kushl";
   return (
     <div className="dashboard-container">
-      <h1>Dashboard</h1>
-      <MoodLineChart />
+      {/* <MoodLineChart userName={userName}/> */}
+      {/* <MoodDoughnutChart userName={userName}/> */}
+      {/* <RatingSlider userName={userName}/> */}
     </div>
   );
 }
