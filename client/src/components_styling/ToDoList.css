@@ -1,0 +1,78 @@
+.to-do-list {
+    background-color: white;
+    max-width: 400px;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.to-do-list h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.to-do-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.to-do-list li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 30px;
+}
+
+.to-do-list li button {
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.to-do-list li button:hover {
+    background-color: darkred;
+}
+
+.to-do-list form input {
+    font-size: 1.1rem;
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.to-do-list form input:focus {
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.43); 
+}
+
+.to-do-list form input:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.43);  
+}
+
+.to-do-list form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 0.5s ease;
+}
+
+.to-do-list form button:hover {
+    background-color: darkgreen;
+}

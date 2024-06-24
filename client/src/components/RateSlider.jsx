@@ -41,7 +41,7 @@ function RatingSlider({ userName }) {
 
   return (
     <div className="rating-slider-container">
-      <label htmlFor="mood-slider">Rate your mood</label>
+      <label htmlFor="mood-slider">{userName}, how are you feeling today? Rate your mood out of 10</label>
       <input
         type="range"
         id="mood-slider"

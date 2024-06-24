@@ -56,13 +56,13 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    margin-left: 30px;
+    margin-left: 50px;
   }
   
   .sidebar-option-icon {
     width: 20px;
     height: 20px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
   }
   
   .sidebar-option-name {
@@ -74,10 +74,13 @@
     color: black;
     display: inline;
     padding: 10px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
   }
   
   .sidebar-option a:hover {
-    color: rgb(63, 11, 97);
+    color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(99, 45, 135);
+    border-radius: 10px;
   }
