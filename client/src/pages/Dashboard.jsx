@@ -11,19 +11,19 @@ function Dashboard() {
   return (
     <div className="dashboard-container">
       <div className="section-1">
-        <div className="rating-slider">
-          {/* <RatingSlider userName={userName}/> */}
+        <div className='mood-line-chart'>
+          <MoodLineChart userName={userName}/>
         </div>
         <div className="to-do-list">
           <ToDoList userName={userName}/>
         </div>
       </div>
       <div className="section-2">
-        <div className='mood-line-chart'>
-          {/* <MoodLineChart userName={userName}/> */}
+        <div className="rating-slider">
+          <RatingSlider userName={userName}/>
         </div>
         <div className="mood-doughnut-chart">
-          {/* <MoodDoughnutChart userName={userName}/> */}
+          <MoodDoughnutChart userName={userName}/>
         </div>
       </div>
     </div>

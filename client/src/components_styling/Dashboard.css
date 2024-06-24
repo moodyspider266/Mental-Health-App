@@ -1,3 +1,23 @@
 .dashboard-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
     color: white;
+}
+
+.section-1, .section-2 {
+    display: flex;
+    margin-top: 50px;
+}
+
+.mood-line-chart, .to-do-list {
+    flex: 1;
+}
+
+.rating-slider {
+    flex: 0 0 70%;
+}
+  
+.mood-doughnut-chart {
+    flex: 0 0 30%;
+    aspect-ratio: 1 / 1; /* Ensures it stays square */
 }
