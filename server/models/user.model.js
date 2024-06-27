@@ -27,7 +27,12 @@ const UserSchema=new mongoose.Schema({
         type:String,
         required:true,
         minLength: 6
-    }
+    },
+    posts:[{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:"Post"
+    }]
+
 });
 
 UserSchema.pre("save", async function(next) {

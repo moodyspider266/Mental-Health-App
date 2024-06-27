@@ -13,7 +13,7 @@ const TodoSchema=new mongoose.Schema({
         maxLength: 100
     },
     description:{
-        required:true,
+        type:String,
         trim:true,
         maxLength: 500
     },

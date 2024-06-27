@@ -7,7 +7,8 @@ const cookies=require("cookie-parser")
 const backendroutes=require("./routes/backend.routes");
 const app=express();
 // Add this before defining routes
-
+//password ex vedang
+//now on all passwords are like kushl123
 app.use(cors({
     origin: 'https://localhost:3000',
     credentials: true // Make sure to enable credentials
