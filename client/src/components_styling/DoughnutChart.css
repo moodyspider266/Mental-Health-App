@@ -1,6 +1,7 @@
 .chart-container {
-    width: 80%;
-    height: 80%;
+    display: flex;
+    justify-content: center;
     max-height: 400px;
     max-width: 400px;
 }
+

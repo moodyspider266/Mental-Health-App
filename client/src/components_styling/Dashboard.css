@@ -1,23 +1,22 @@
-.dashboard-container {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    color: white;
-}
-
-.section-1, .section-2 {
+.dashboard-container{
     display: flex;
-    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.mood-line-chart, .to-do-list {
-    flex: 1;
+.section-2{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
 }
 
-.rating-slider {
-    flex: 0 0 70%;
+.mood-line-chart{
+
 }
-  
-.mood-doughnut-chart {
-    flex: 0 0 30%;
-    aspect-ratio: 1 / 1; /* Ensures it stays square */
+
+.mood-doughnut-chart{
+
 }
