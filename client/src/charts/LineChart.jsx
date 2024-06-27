@@ -99,7 +99,7 @@ function MoodLineChart() {
   };
 
   return (
-    <div className="chart-container">
+    <div className="line-chart-container">
       <Line data={chartData} options={options} />
     </div>
   );

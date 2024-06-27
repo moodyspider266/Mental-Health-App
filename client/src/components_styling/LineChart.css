@@ -1,14 +1,19 @@
-.chart-container {
-  
-    width: 600px;
-    height: 200px;
-    padding: 10px; 
+.line-chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    max-height: 400px;
+    min-width: 800px;
     background-color: white;
-    border-radius: 25px; 
+    border-radius: 15px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 canvas {
     background-color: white;
-
+    min-height: 400px;
+    max-height: 400px;
+    min-width: 800px;
+    padding: 20px;
 }

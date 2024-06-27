@@ -23,7 +23,7 @@ function ToDoList() {
     <div className='to-do-list'>
       <h2>To-Do List</h2>
       <ul>
-        {topThreeTasks.map((task, index) => (
+        {(!topThreeTasks) ? (<h3>No tasks</h3>) : topThreeTasks.map((task, index) => (
           <li key={index}>
             {task}
             <button onClick={() => handleDelete(task)}>Delete</button>

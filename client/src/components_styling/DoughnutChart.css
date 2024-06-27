@@ -1,7 +1,15 @@
-.chart-container {
+.doughnut-chart-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     max-height: 400px;
     max-width: 400px;
 }
 
+canvas {    
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    min-height: 300px;
+    min-width: 300px;
+}

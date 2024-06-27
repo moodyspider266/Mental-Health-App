@@ -61,7 +61,7 @@ function MoodDoughnutChart() {
   };
 
   return (
-    <div className="chart-container">
+    <div className="doughnut-chart-container">
       <Doughnut data={chartData} options={options} />
     </div>
   );
