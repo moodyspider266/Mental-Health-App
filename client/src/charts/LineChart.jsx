@@ -41,15 +41,23 @@ function MoodLineChart() {
     x: new Date(data.date).getDate(),
     y: data.moodScore,
   }));
-
+  
   const chartData = {
     labels: dayLabels,
     datasets: [
       {
         label: 'Mood Score',
         data: scoreData,
-        borderColor: 'blue',
-        backgroundColor: 'blue',
+        borderColor: 'black',
+        backgroundColor: scoreData.map((data) => {
+          if (data.y >= 0 && data.y <= 4) {
+            return 'red';
+          } else if (data.y === 5) {
+            return 'grey';
+          } else if (data.y >= 6 && data.y <= 10) {
+            return 'green';
+          }
+        }),
         fill: false,
         pointRadius: 5,
         borderWidth: 2,
