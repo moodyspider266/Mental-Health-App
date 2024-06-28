@@ -1,0 +1,40 @@
+.settings-cpntainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-options {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.settings-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px 0px;
+    font-weight: 550;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+} 
+
+.settings-option:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.settings-option.selected {
+    background-color: rgb(152, 70, 207);
+    color: white;
+}

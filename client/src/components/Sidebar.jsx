@@ -7,7 +7,6 @@ const Sidebar = () => {
     { name: 'Community', icon: 'community', link: '/community' },
     { name: 'Recommendations', icon: 'recommendations', link: '/recommendations' },
     { name: 'Surveys', icon: 'surveys', link: '/surveys' },
-    { name: 'Profile', icon: 'profile', link: '/profile' },
     { name: 'Settings', icon: 'settings', link: '/settings' },  
   ];
 

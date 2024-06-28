@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Dashboard from './pages/Dashboard';
+import Settings from './pages/Settings';
 
 function App() {
   return (  
@@ -13,6 +14,7 @@ function App() {
           <Router>
             <Routes>
               <Route exact path="/" element={<Dashboard />} />
+              <Route path='/settings' element={<Settings />} />
             </Routes>
           </Router>
         </div>
