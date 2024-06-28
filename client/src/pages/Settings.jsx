@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import '../components_styling/Settings.css';
+import Profile from '../components/Profile';
+import AccSecurity from '../components/AccSecurity';
+import AccManage from '../components/AccManage';
+import Notif from '../components/Notif';
 
 export default function Settings() {
     const options = [
-        { name: 'Personal Info', icon: 'profile', link: '/profile' },
-        { name: 'Account Security', icon: 'security', link: '/security' },
-        { name: 'Manage Account', icon: 'account', link: '/account' },
-        { name: 'Notifications', icon: 'notif', link: '/notif' },
+        { name: 'Personal Info', icon: 'profile', component: <Profile /> },
+        { name: 'Account Security', icon: 'security', component: <AccSecurity /> },
+        { name: 'Manage Account', icon: 'account', component: <AccManage /> },
+        { name: 'Notifications', icon: 'notif', component: <Notif /> },
     ];
   
     const [selectedOption, setSelectedOption] = useState(options[0]);
@@ -34,8 +38,7 @@ export default function Settings() {
             <div className="settings-content">
                 {selectedOption && (
                     <React.Fragment>
-                        <h2>{selectedOption.name}</h2>
-                        {/* Display the content for the selected option here */}
+                        {selectedOption.component}
                     </React.Fragment>
                 )}
             </div>
